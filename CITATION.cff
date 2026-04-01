@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Intent-Aware Multi-Stage Defense for Personalized Recommender Systems"
+message: "If you use this repository, please cite it as follows."
+type: software
+authors:
+  - family-names: "Zhu"
+    given-names: "Shixuan"
+repository-code: "https://github.com/SaseunBOX/intent-aware-rec-defense"
+license: MIT
+version: 1.0.0
+date-released: 2026-04-02

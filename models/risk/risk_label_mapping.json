@@ -1,0 +1,7 @@
+{
+  "label_order": [
+    "benign",
+    "sensitive_educational",
+    "harmful_promotional"
+  ]
+}

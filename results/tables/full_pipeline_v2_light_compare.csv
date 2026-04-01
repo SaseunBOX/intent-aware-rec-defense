@@ -1,0 +1,4 @@
+System,IntentSource,ALPHA,BETA,GAMMA,HER,HitRate@10,NDCG@10,UtilityLoss_vs_Baseline,EvalSessions,Action_keep,Action_down_rank,Action_replace,Action_block
+Full_Pipeline_V2_Current,intent_probabilities_all.csv,0.2,0.6,0.15,4.776689754000478e-05,1.0,0.5321554589781287,0.025470445160429768,38499,669647,32,241,29556
+Full_Pipeline_V2_LightIntent_BestNDCG,intent_probabilities_all_v2_light.csv,0.3,0.8,0.05,4.776689754000478e-05,1.0,0.5400763922358847,0.010964940365989318,39107,669647,32,241,29556
+Full_Pipeline_V2_LightIntent_Balanced,intent_probabilities_all_v2_light.csv,0.1,0.4,0.05,4.776689754000478e-05,1.0,0.5355962978519342,0.019169280492489744,39039,669647,32,241,29556

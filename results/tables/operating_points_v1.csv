@@ -1,0 +1,3 @@
+mode,config_name,tau_down,tau_replace,tau_block,HER,HER_reduction_vs_baseline,OSR,HitRate@10,NDCG@10,UtilityLoss_vs_Baseline,EvalSessions,OSR_numerator,OSR_denominator,Action_keep,Action_down_rank,Action_replace,Action_block,notes
+Balanced_mode,cfg_5_aggressive,0.20,0.40,0.60,0.000000,0.044213,0.269294,1.000000,0.532155,0.025470,38499,179740,667448,669647,0,56,29787,"Selected by current scalarized balanced objective; overlaps with high-safety mode in current sweep."
+High_safety_mode,cfg_5_aggressive,0.20,0.40,0.60,0.000000,0.044213,0.269294,1.000000,0.532155,0.025470,38499,179740,667448,669647,0,56,29787,"Selected as lowest-HER point under current sweep; same as balanced mode because the current frontier is flat."

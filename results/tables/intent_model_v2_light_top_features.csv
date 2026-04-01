@@ -1,0 +1,61 @@
+class_name,rank,feature_name,coefficient
+normal_interest,1,help,3.4467636178690206
+normal_interest,2,crisis,3.0272911117274446
+normal_interest,3,police officer,2.9766527346288782
+normal_interest,4,in her,2.879058097440518
+normal_interest,5,support,2.794043969865212
+normal_interest,6,because,2.777038937198526
+normal_interest,7,age,2.6786755200157804
+normal_interest,8,opens up,2.6260198102678767
+normal_interest,9,13,2.533274744674643
+normal_interest,10,death of,2.415742032848209
+normal_interest,11,opens,2.3117621789146674
+normal_interest,12,files,2.273246627751357
+normal_interest,13,sentenced,2.1878059219312314
+normal_interest,14,book,2.1681883221690073
+normal_interest,15,must,2.1514060071002783
+normal_interest,16,helps,2.0836474096840014
+normal_interest,17,ad,2.0642987014492897
+normal_interest,18,history_len,2.0505136751028448
+normal_interest,19,num_history_click_rows,2.0505136751028448
+normal_interest,20,the real,2.0442677538051677
+sensitive_help_seeking,1,domestic,19.940835165410604
+sensitive_help_seeking,2,threatening,13.269005363164865
+sensitive_help_seeking,3,violence,13.034030571234062
+sensitive_help_seeking,4,pop star,10.155248201289256
+sensitive_help_seeking,5,health,9.80477534340534
+sensitive_help_seeking,6,sensitive_keyword_hits,9.207489925230973
+sensitive_help_seeking,7,passenger,8.413863049548166
+sensitive_help_seeking,8,prison for,7.095297553212779
+sensitive_help_seeking,9,the woman,6.9471597499887
+sensitive_help_seeking,10,marriage,6.921942808756518
+sensitive_help_seeking,11,it not,6.60561589845915
+sensitive_help_seeking,12,panel,6.46099715447592
+sensitive_help_seeking,13,she is,6.432386650948442
+sensitive_help_seeking,14,said she,6.337377852833321
+sensitive_help_seeking,15,manager,5.6768198895813455
+sensitive_help_seeking,16,fire after,5.205955818579545
+sensitive_help_seeking,17,history_to_impression_ratio,5.192374862384047
+sensitive_help_seeking,18,says she,5.020072470363645
+sensitive_help_seeking,19,middleton,5.0040862375924595
+sensitive_help_seeking,20,been charged,4.950626058527256
+clearly_harmful_intent,1,wrote,14.349511963476923
+clearly_harmful_intent,2,public,11.151344721554313
+clearly_harmful_intent,3,contributor,10.27732224285781
+clearly_harmful_intent,4,anti,9.650564503105947
+clearly_harmful_intent,5,leader,9.61051504428087
+clearly_harmful_intent,6,charge,9.42304215958306
+clearly_harmful_intent,7,conference,9.261954269415737
+clearly_harmful_intent,8,site,9.204302761524053
+clearly_harmful_intent,9,of all,9.139238898457323
+clearly_harmful_intent,10,groups,8.724682510832208
+clearly_harmful_intent,11,the late,8.646192652111646
+clearly_harmful_intent,12,ideas,8.433502361875343
+clearly_harmful_intent,13,islamic,8.280376590200701
+clearly_harmful_intent,14,kurdish,8.232524926050798
+clearly_harmful_intent,15,mother,7.120479123199566
+clearly_harmful_intent,16,land,7.073264429220302
+clearly_harmful_intent,17,also,7.05607779588544
+clearly_harmful_intent,18,fact,7.028433662088602
+clearly_harmful_intent,19,william,6.814010806808126
+clearly_harmful_intent,20,trump,6.76302809935698

@@ -1,0 +1,13 @@
+System,HER,HitRate@10,NDCG@10,UtilityLoss_vs_Baseline,EvalSessions,Action_keep,Action_down_rank,Action_replace,Action_block,Notes
+Injected_Baseline,0.044213,1.0,0.546064,0.0,38761,,,,,Injected baseline after external candidate injection
+Risk_Only_V1,0.041137,1.0,0.546064,0.0,38761,,,,,Risk-only control
+Intent_Only_V1,0.043852,1.0,0.546064,0.0,38761,,,,,Intent-only control
+Full_Policy_V1,0.041137,1.0,0.546064,0.0,38761,,,,,Rule-based full policy v1
+No_Replacement_V1,4.8e-05,1.0,0.532155,0.02547,38499,,,,,Full pipeline variant without replacement; only keep/down-rank/block
+Global_Threshold_V1,8e-05,1.0,0.532155,0.02547,38499,,,,,Full pipeline variant using a single global threshold instead of policy mapping granularity
+Full_Pipeline_V2,4.8e-05,1.0,0.532155,0.02547,38499,,,,,Thesis-style full pipeline v2 with phi/penalty/bonus and hard actions
+Balanced_Mode_Selected,0.0,1.0,0.532155,0.02547,38499,,,,,Selected by current scalarized balanced objective; overlaps with high-safety mode in current sweep
+High_Safety_Mode_Selected,0.0,1.0,0.532155,0.02547,38499,,,,,Selected as lowest-HER point under current sweep; same as balanced mode because the current frontier is flat
+Full_Pipeline_V2_Current,4.776689754000478e-05,1.0,0.5321554589781287,0.0254704451604297,38499,669647,32,241,29556,Original thesis-style full pipeline with old intent model
+Full_Pipeline_V2_LightIntent_BestNDCG,4.776689754000478e-05,1.0,0.5400763922358847,0.0109649403659893,39107,669647,32,241,29556,New intent_model_v2_light with best-NDCG weight configuration
+Full_Pipeline_V2_LightIntent_Balanced,4.776689754000478e-05,1.0,0.5355962978519342,0.0191692804924897,39039,669647,32,241,29556,New intent_model_v2_light with balanced weight configuration

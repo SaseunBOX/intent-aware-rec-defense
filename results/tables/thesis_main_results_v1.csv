@@ -1,0 +1,8 @@
+System,HER,OSR,HitRate@10,NDCG@10,UtilityLoss_vs_Baseline,EvalSessions,OSR_numerator,OSR_denominator,Notes
+Injected_Baseline,0.044213,0.0,1.0,0.546064,0.0,38761,0,0,Injected baseline after external candidate injection
+Risk_Only_V1,0.041137,0.0,1.0,0.546064,0.0,38761,0,667448,Risk-only control
+Intent_Only_V1,0.043852,0.015501,1.0,0.546064,0.0,38761,10346,667448,Intent-only control
+Full_Policy_V1,0.041137,0.015501,1.0,0.546064,0.0,38761,10346,667448,Rule-based full policy v1
+Full_Pipeline_V2,4.8e-05,0.269293,1.0,0.532155,0.02547,38499,179739,667448,Thesis-style full pipeline v2 with phi/penalty/bonus and hard actions
+Balanced_Mode_Selected,0.0,0.269294,1.0,0.532155,0.02547,38499,179740,667448,Selected by current scalarized balanced objective; overlaps with high-safety mode in current sweep.
+High_Safety_Mode_Selected,0.0,0.269294,1.0,0.532155,0.02547,38499,179740,667448,Selected as lowest-HER point under current sweep; same as balanced mode because the current frontier is flat.

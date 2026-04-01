@@ -1,0 +1,9 @@
+{
+  "label_order": [
+    "normal_interest",
+    "sensitive_help_seeking",
+    "clearly_harmful_intent"
+  ],
+  "overall_accuracy": 0.8359580052493438,
+  "macro_f1": 0.5645571928137475
+}

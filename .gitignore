@@ -1,0 +1,87 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.DS_Store
+
+# local caches
+data/processed/cache/
+results/tmp/
+logs/
+
+# large or licensed raw data
+data/raw/
+data/external/
+*.parquet
+*.zip
+*.tar.gz
+
+# optional model artifacts if too large
+models/**/*.joblib
+
+# latex build files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+
+# raw datasets
+data/raw/
+data/external/
+
+# caches
+data/processed/cache/
+
+# heavy model binaries
+models/**/*.joblib
+
+# latex build files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+
+# raw datasets
+data/raw/
+data/external/
+
+# caches
+data/processed/cache/
+
+# heavy model binaries
+models/**/*.joblib
+
+# latex build files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot

@@ -1,0 +1,3 @@
+System,HER,OSR,HitRate@10,NDCG@10,UtilityLoss_vs_Baseline,Notes
+Injected_Baseline,0.044213,0.000000,1.000000,0.546064,0.000000,"Baseline after external candidate injection"
+Policy_Rerank_V1,0.041137,0.015501,1.000000,0.546064,0.000000,"Intent-aware/risk-aware rule-based reranking"
