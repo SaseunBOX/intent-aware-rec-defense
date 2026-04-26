@@ -85,3 +85,18 @@ models/**/*.joblib
 *.toc
 *.lof
 *.lot
+
+# large generated data files
+data/processed/*.csv
+results/tables/*.csv
+
+# generated outputs / model artifacts
+data/raw/
+outputs/
+runs/
+checkpoints/
+*.pt
+*.pth
+*.pkl
+*.bin
+*.safetensors
