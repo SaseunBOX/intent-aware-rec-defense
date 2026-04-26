@@ -3,8 +3,19 @@ from __future__ import annotations
 from pathlib import Path
 
 import pandas as pd
+#会把新增实验整合成 thesis-ready outputs，包括：
 
+#最新主结果表
+#Chapter 4 / 5 summary
 
+#这样，代码输出和论文正文是一体化的。
+#新增的内容包括：
+
+#更强的 lightweight intent model
+##subgroup analysis
+#weight sweep
+#old-vs-new pipeline comparison
+#thesis-ready result packaging
 ROOT = Path("/mnt/e/intent_aware_rec_defense")
 RESULTS = ROOT / "results"
 TABLES = RESULTS / "tables"
